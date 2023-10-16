@@ -5,6 +5,7 @@ const destinationSchema = mongoose.Schema({
     images: { type:[String]  },
     name: String,
     shortDescription: String,
+    keyAttractions:{ type:[String]  }
     
 });
 
